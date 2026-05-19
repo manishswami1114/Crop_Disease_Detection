@@ -124,10 +124,10 @@ def load_class_names(json_path='./class_name.json'):
 
 # Sidebar Design
 with st.sidebar:
-    st.image("https://images.unsplash.com/photo-1463123081488-729f555ee3f1?auto=format&fit=crop&w=600&q=80", use_column_width=True)
-    st.markdown("### 🌿 AgriShield Diagnostics")
+    st.markdown("<h1 style='text-align: center; color: #10b981;'>🌿</h1>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center; margin-top: 0;'>AgriShield Diagnostics</h3>", unsafe_allow_html=True)
     st.markdown("""
-    AgriShield leverages a sophisticated deep Convolutional Neural Network (CNN) to instantly identify crop diseases from leaf scans.
+    AgriShield leverages a sophisticated deep Convolutional Network (CNN) to instantly identify crop diseases from leaf scans.
     
     **How to use:**
     1. 📸 Take a high-quality picture of the diseased crop leaf.
@@ -170,7 +170,7 @@ if cnn is not None and len(class_name) > 0:
             img_cv = cv2.cvtColor(img_cv, cv2.COLOR_BGR2RGB)  
             
             # Display uploaded original image in a beautiful container
-            st.image(img_cv, caption="Uploaded Original Image", use_column_width=True)
+            st.image(img_cv, caption="Uploaded Original Image", use_container_width=True)
             
     with col2:
         st.markdown("### 🔬 Diagnostic Report")
