@@ -2,6 +2,12 @@
 
 A lightweight web application that predicts plant diseases from leaf images using a pre‑trained Convolutional Neural Network (CNN).
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://crop-diseasedetection.streamlit.app/#advanced-plant-pathology-engine)
+
+## 🔗 Live Application
+Experience the deep learning classifier live in your browser:  
+🚀 **[AgriShield Pathology Web App](https://crop-diseasedetection.streamlit.app/#advanced-plant-pathology-engine)**
+
 ## 🎯 Goal
 Enable farmers and agronomists to quickly identify common crop diseases without expensive lab equipment, helping to reduce yield loss and improve sustainable farming practices.
 
